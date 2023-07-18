@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  content: none;
+}
+
+body,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  /* min-height: 1000px; */
+  height: calc(100vh + 200px);
+  /* width: 100%; */
+
+  background-position: center;
+  background: linear-gradient(105deg, rgba(10, 10, 10, 1),
+      rgba(19, 13, 19, 0.3),
+      rgba(0, 0, 0, 1)),
+    url(../src/img/SLIDE_01.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.heading .content {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.heading nav {
+  padding: 0 30px !important;
+  height: 90px;
+}
+
+.heading .section {
+  height: 80vh;
+  width: 100%;
+}
+.heading .section h1 {
+  /* background-color: red; */
+  font-size: 110px;
+}
+.heading .section h1 span {
+  font-size: 120px;
+}

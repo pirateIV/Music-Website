@@ -1,0 +1,11 @@
+.btn-b-header {
+  background-color: #614048 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  transition: 0.3s ease-in !important;
+}
+
+.btn-b-header:hover {
+  background-color: white !important;
+  color: #614048 !important;
+}
